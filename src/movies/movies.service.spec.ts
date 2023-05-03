@@ -14,7 +14,7 @@ describe('MoviesService', () => {
   });
 
   it('should be defined', () => {
-    expect(service).toBeFalsy();
+    expect(service).toBeDefined();
   });
   describe('getAll', () => {
     it('should return array', () => {
